@@ -1,0 +1,62 @@
+- name: Arvind Yalavarti
+  role: president
+  description: 2019-Present
+
+- name: Casey Kim
+  role: president
+  description: 2020-Present
+
+- name: Joanna Tasmin
+  role: leader
+  description: Marketing
+
+- name: Michael Mao
+  role: leader
+  description: Workshops
+
+- name: Noah Jones
+  role: leader
+  description: Projects
+
+- name: Johnny Roy
+  role: leader
+  description: Web+Design
+
+- name: Camille Fougere
+  role: marketing
+
+- name: William Yang
+  role: marketing
+
+- name: Dharam Madnani
+  role: workshops
+
+- name: Emily Ye
+  role: workshops
+
+- name: Filip Kierzenka
+  role: workshops
+
+- name: Jinhoo Hong
+  role: workshops
+
+- name: Michelle Mai
+  role: workshops
+
+- name: Anika Ahluwalia
+  role: web
+
+- name: Eunice Hong
+  role: web
+
+- name: Adwith Mukherjee
+  role: projects
+
+- name: Colby Anderson
+  role: projects
+
+- name: Shre Kapoor
+  role: projects
+
+- name: Sreehari Rammohan
+  role: projects
