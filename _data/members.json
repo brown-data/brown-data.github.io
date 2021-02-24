@@ -1,0 +1,76 @@
+{
+  "presidents": [
+    {
+      "name": "Arvind Yalavarti",
+      "description": "2019-Present"
+    },
+    {
+      "name": "Casey Kim",
+      "description": "2020-Present"
+    }
+  ],
+  "workshops": [
+    {
+      "name": "Michael Mao",
+      "leader": true
+    },
+    {
+      "name": "Dharam Madnani"
+    },
+    {
+      "name": "Emily Ye"
+    },
+    {
+      "name": "Filip Kierzenka"
+    },
+    {
+      "name": "Jinhoo Hong"
+    },
+    {
+      "name": "Michelle Mai"
+    }
+  ],
+  "marketing": [
+    {
+      "name": "Joanna Tasmin",
+      "leader": true
+    },
+    {
+      "name": "Camille Fougere"
+    },
+    {
+      "name": "William Yang"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Noah Jones",
+      "leader": true
+    },
+    {
+      "name": "Adwith Mukherjee"
+    },
+    {
+      "name": "Colby Anderson"
+    },
+    {
+      "name": "Shre Kapoor"
+    },
+    {
+      "name": "Sreehari Rammohan"
+    }
+  ],
+  "web": [
+    {
+      "name": "Johnny Roy",
+      "leader": true
+    },
+    {
+      "name": "Anika Ahluwalia"
+    },
+    {
+      "name": "Eunice Hong"
+    }
+  ]
+}
+

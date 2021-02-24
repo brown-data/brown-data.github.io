@@ -1,0 +1,25 @@
+---
+---
+.member-list li img {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.member-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-list {
+  display: grid;
+  padding: 0px;
+  grid-template-columns: repeat(auto-fill, 120px);
+  grid-template-rows: repeat(auto-fill, 120px);
+  list-style-type: none;
+}
+
+body {
+}
