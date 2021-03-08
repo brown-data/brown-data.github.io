@@ -1,6 +1,77 @@
 ---
 ---
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+section {
+  padding: 0px 10%;
+}
+
+header {
+  position: fixed;
+  color: white;
+  padding: 20px 10% 0px;
+}
+
+header a {
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 2.4rem;
+}
+
+sub {
+  font-size: 1rem;
+}
+
+.splash-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(/assets/img/home.jpg), center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.title-container div{
+  width: 70%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.info-container div:nth-child(2) {
+  margin: 0 30px;
+}
+
+.socials-container {
+  margin-top: 20px;
+  font-size: 1.7rem;
+}
+.socials-container i {
+  margin-right: 5px;
+}
+
 .member-list li img {
+  min-height: 80px;
+  min-width: 80px;
   height: 80px;
   width: 80px;
   border-radius: 40px;

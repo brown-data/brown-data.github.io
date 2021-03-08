@@ -1,10 +1,51 @@
 ---
 layout: default
 ---
+<section class="splash-section">
+    <div></div>
+    <div class="title-container">
+        <h1>Brown Data Club</h1>
+        <div>
+            <sub>
+                At Brown Data Science, we aim to connect students, faculty, and industries to create a hub for
+                opportunities related to Data Science and Machine Learning in Brown’s undergraduate community and
+                beyond
+            </sub>
+        </div>
+        <div class="socials-container">
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
+    </div>
+    <div class="info-container">
+        <div>
+            <h3>Learn</h3>
+            <sub>
+                Come to our workshops and data talks, regardless of experience or background.
+            </sub>
+        </div>
+        <div>
+            <h3>Connect</h3>
+            <sub>
+                Chat with leading industry experts, faculty members, and other passionate students.
+            </sub>
+        </div>
+        <div>
+            <h3>Chat</h3>
+            <sub>
+                Hack away at our Datathon and build projects with access to unique and exclusive data sets.
+            </sub>
 
-<div class="home">
+        </div>
+    </div>
+</section>
+<section>
+    <h2>
+        The Team
+    </h2>
     {% for team in site.data.members %}
-    {{ team | first | capitalize }}
+    <h3>{{ team | first | capitalize }}</h3>
     <ul class="member-list">
         {% for member in team.last %}
         <li>
@@ -15,5 +56,4 @@ layout: default
         {% endfor %}
     </ul>
     {% endfor %}
-
-</div>
+</section>
