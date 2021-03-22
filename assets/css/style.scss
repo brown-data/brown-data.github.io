@@ -15,7 +15,13 @@ section {
 header {
   position: fixed;
   color: white;
-  padding: 20px 10% 0px;
+  width: 100vw;
+  padding: 20px 10%;
+}
+
+.header-dark {
+  color: black;
+  background-color: white;
 }
 
 header a {

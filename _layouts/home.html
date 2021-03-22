@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="splash-section">
+<section id="home" class="splash-section">
     <div></div>
     <div class="title-container">
         <h1>Brown Data Club</h1>
@@ -40,7 +40,7 @@ layout: default
         </div>
     </div>
 </section>
-<section>
+<section id="team">
     <h2>
         The Team
     </h2>
@@ -58,7 +58,7 @@ layout: default
     </ul>
 </section>
 
-<section>
+<section id="sponsors">
     <h2>
         Our Sponsors
     </h2>
@@ -76,7 +76,7 @@ layout: default
 </section>
 
 
-<section>
+<section id="events">
 
     {% for time in site.data.events %}
     <h2>
@@ -94,3 +94,16 @@ layout: default
     {% endfor %}
 </section>
 
+<script>
+	$(() => {
+		$(window).scroll(() => {
+			const scroll = $(window).scrollTop()
+			const os = $('#team').offset().top
+			if(scroll > os - 80){
+				$('header').addClass('header-dark');
+			} else {
+				$('header').removeClass('header-dark');
+			}
+		})
+	})
+</script>
