@@ -30,7 +30,9 @@ h1 {
 
 h2 {
   margin-top: 80px;
+  padding-bottom: 1rem;
   font-size: 2.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 sub {
@@ -82,36 +84,45 @@ sub {
 .member-list li {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .member-list {
   display: grid;
   padding: 0px;
   grid-template-columns: repeat(auto-fill, 120px);
-  grid-template-rows: repeat(auto-fill, 120px);
+  gap: 20px;
+  //grid-template-rows: repeat(auto-fill, 120px);
   list-style-type: none;
 }
 
 .sponsor-list {
-  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 370px);
-  grid-template-rows: repeat(auto-fill, 160px);
-  list-style-type: none;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 2rem;
 }
 
-.sponsor-small {
-  padding-top: 10px;
-  img {
-    width: 290px;
-  }
+.sponsor-small, .sponsor-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sponsor-large {
-  padding-top: 10px;
-  img {
-    width: 340px;
-  }
+.sponsor-small img {
+    width: 190px;
+}
+
+.sponsor-large img {
+    width: 240px;
+}
+
+.event-block {
+  border-left: 6px solid rgba(0, 0, 0, 0.1);
+  padding-left: 2rem;
+  margin-bottom: 3rem;
 }
 
 .events-list a {
@@ -119,11 +130,10 @@ sub {
 }
 
 .event-button {
-  padding: 7px;
-  border-radius: 5px;
+  margin-top: 20px;
+  padding: 6px 10px;
   border: 1px solid black;
   width: fit-content;
-  margin: 8px;
   background-color: black;
   color: white;
 }

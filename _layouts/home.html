@@ -44,18 +44,18 @@ layout: default
     <h2>
         The Team
     </h2>
-    {% for team in site.data.members %}
-    <h3>{{ team | first | capitalize }}</h3>
     <ul class="member-list">
+    {% for team in site.data.members %}
         {% for member in team.last %}
         <li>
             {% assign uri = member.name | replace: " ", "_" | append: ".png" | downcase %}
             <img src="/assets/img/team/{{uri}}" onerror="this.onerror=null; this.src='/assets/img/team/temp.png'">
+            <strong>{{ team | first | capitalize }}</strong>
             {{ member.name }}
         </li>
         {% endfor %}
-    </ul>
     {% endfor %}
+    </ul>
 </section>
 
 <section>
@@ -77,11 +77,11 @@ layout: default
 
 
 <section>
-    <h2>
-        Events
-    </h2>
+
     {% for time in site.data.events %}
-    <h3>{{time | first | capitalize}}</h3>
+    <h2>
+        {{time | first | capitalize}} Events
+    </h2>
     <div class="events-list">
         {% for event in time.last %}
         <div class="event-block">
