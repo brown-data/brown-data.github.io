@@ -1,0 +1,52 @@
+{
+    "sponsors": [
+      {
+        "name": "Goldman Sachs",
+        "website": "https://www.goldmansachs.com/",
+        "level": "large",
+        "img": "goldman.png"
+      },
+      {
+        "name": "Citizens Bank",
+        "website": "https://www.citizensbank.com/HomePage.aspx",
+        "level": "large",
+        "img": "citizens.png"
+      },
+      {
+        "name": "Trip Advisor",
+        "website": "https://www.tripadvisor.com/",
+        "level": "large",
+        "img": "tripadvisor.png"
+      },
+      {
+        "name": "Brown Data Science Initiative",
+        "website": "https://www.brown.edu/initiatives/data-science/",
+        "level": "small",
+        "img": "dsi.png"
+      },
+      {
+        "name": "Google Cloud",
+        "website": "https://cloud.google.com/why-google-cloud/big-data/",
+        "level": "small",
+        "img": "google.png"
+      },
+      {
+        "name": "Jane Street",
+        "website": "https://www.janestreet.com/",
+        "level": "small",
+        "img": "jane.png"
+      },
+      {
+        "name": "Dassault",
+        "website": "https://www.3ds.com/",
+        "level": "small",
+        "img": "dassault.png"
+      },
+      {
+        "name": "Upserve",
+        "website": "https://upserve.com/",
+        "level": "small",
+        "img": "upserve.png"
+      }
+    ]
+  }

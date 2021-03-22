@@ -57,3 +57,40 @@ layout: default
     </ul>
     {% endfor %}
 </section>
+
+<section>
+    <h2>
+        Our Sponsors
+    </h2>
+    {% for sponsors in site.data.sponsors %}
+    <div class="sponsor-list">
+        {% for sponsor in sponsors.last %}
+        <div class="sponsor-{{sponsor.level}}">
+            <a href="{{sponsor.website}}" target="_blank">
+                <img src="/assets/img/archive/partners/{{sponsor.img}}" alt="{{sponsor.name}}" onerror="this.onerror=null; this.src='/assets/img/team/temp.png'">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</section>
+
+
+<section>
+    <h2>
+        Events
+    </h2>
+    {% for time in site.data.events %}
+    <h3>{{time | first | capitalize}}</h3>
+    <div class="events-list">
+        {% for event in time.last %}
+        <div class="event-block">
+            <h4>{{event.name}}</h4>
+            <div>{{event.description}}</div>
+            <a href="{{event.link}}" target="_blank"><div class="event-button">More Information Here!</div></a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</section>
+

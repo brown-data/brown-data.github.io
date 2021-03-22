@@ -92,5 +92,50 @@ sub {
   list-style-type: none;
 }
 
+.sponsor-list {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  grid-template-rows: repeat(auto-fill, 160px);
+  list-style-type: none;
+}
+
+.sponsor-small {
+  padding-top: 10px;
+  img {
+    width: 290px;
+  }
+}
+
+.sponsor-large {
+  padding-top: 10px;
+  img {
+    width: 340px;
+  }
+}
+
+.events-list a {
+  text-decoration: none;
+}
+
+.event-button {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: fit-content;
+  margin: 8px;
+  background-color: black;
+  color: white;
+}
+
+.event-button:hover {
+  background-color: white;
+  color: black;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 body {
 }
