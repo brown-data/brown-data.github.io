@@ -19,6 +19,12 @@ header {
   padding: 20px 10%;
 }
 
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px 10%;
+}
+
 .header-dark {
   color: black;
   background-color: white;
@@ -154,4 +160,13 @@ h3 {
 }
 
 body {
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+  .member-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
