@@ -1,6 +1,5 @@
 <header>
-    <a>Events</a>
-    <a>Sponsors</a>
-    <a>Team</a>
-    <a>Contact</a>
+  {% for item in site.data.sections.docs %}
+    <a href="#{{ item.url }}">{{ item.title }}</a>
+  {% endfor %}
 </header>

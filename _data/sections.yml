@@ -1,0 +1,9 @@
+docs:
+  - title: Home
+    url: home
+  - title: Events
+    url: events
+  - title: Sponsors
+    url: sponsors
+  - title: Team
+    url: team
