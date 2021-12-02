@@ -82,6 +82,13 @@ sub {
   margin-top: 20px;
   font-size: 1.7rem;
 }
+.socials-container a,
+.socials-container a:visited,
+.socials-container a:hover,
+.socials-container a:active {
+  color: white;
+  text-decoration: none;
+}
 .socials-container i {
   margin-right: 5px;
 }
