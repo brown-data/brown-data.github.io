@@ -1,12 +1,12 @@
 {
   "president": [
     {
-      "name": "Arvind Yalavarti",
-      "description": "2019-Present"
+      "name": "Joanna Tasmin",
+      "description": "2021-Present"
     },
     {
-      "name": "Casey Kim",
-      "description": "2020-Present"
+      "name": "Anika Ahluwalia",
+      "description": "2021-Present"
     }
   ],
   "workshops": [
@@ -62,15 +62,16 @@
   ],
   "web": [
     {
-      "name": "Johnny Roy",
+      "name": "Theo Fernandez",
       "leader": true
     },
     {
-      "name": "Anika Ahluwalia"
+      "name": "Brandon Yan"
     },
     {
-      "name": "Eunice Hong"
+      "name": "Richard Tang"
     }
   ]
 }
+
 

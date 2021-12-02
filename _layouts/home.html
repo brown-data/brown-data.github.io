@@ -13,7 +13,10 @@ layout: default
             </sub>
         </div>
         <div class="socials-container">
-            <i class="fab fa-instagram-square"></i>
+            <a href="/test">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-twitter-square"></i>
         </div>
@@ -40,6 +43,25 @@ layout: default
         </div>
     </div>
 </section>
+
+<section id="events">
+
+    {% for time in site.data.events %}
+    <h2>
+        {{time | first | capitalize}} Events
+    </h2>
+    <div class="events-list">
+        {% for event in time.last %}
+        <div class="event-block">
+            <h4>{{event.name}}</h4>
+            <div>{{event.description}}</div>
+            <a href="{{event.link}}" target="_blank"><div class="event-button">More Information Here!</div></a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</section>
+
 <section id="team">
     <h2>
         The Team
@@ -48,7 +70,7 @@ layout: default
     {% for team in site.data.members %}
         {% for member in team.last %}
         <li>
-            {% assign uri = member.name | replace: " ", "_" | append: ".png" | downcase %}
+            {% assign uri = member.name | replace: " ", "_" | append: ".jpg" | downcase %}
             <img src="/assets/img/team/{{uri}}" onerror="this.onerror=null; this.src='/assets/img/team/temp.png'">
             <strong>{{ team | first | capitalize }}</strong>
             {{ member.name }}
@@ -69,25 +91,6 @@ layout: default
             <a href="{{sponsor.website}}" target="_blank">
                 <img src="/assets/img/archive/partners/{{sponsor.img}}" alt="{{sponsor.name}}" onerror="this.onerror=null; this.src='/assets/img/team/temp.png'">
             </a>
-        </div>
-        {% endfor %}
-    </div>
-    {% endfor %}
-</section>
-
-
-<section id="events">
-
-    {% for time in site.data.events %}
-    <h2>
-        {{time | first | capitalize}} Events
-    </h2>
-    <div class="events-list">
-        {% for event in time.last %}
-        <div class="event-block">
-            <h4>{{event.name}}</h4>
-            <div>{{event.description}}</div>
-            <a href="{{event.link}}" target="_blank"><div class="event-button">More Information Here!</div></a>
         </div>
         {% endfor %}
     </div>
